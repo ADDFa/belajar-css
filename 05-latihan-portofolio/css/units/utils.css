@@ -1,0 +1,26 @@
+/* utility class */
+
+.title {
+    font-size: var(--sizeTitle);
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 600;
+}
+
+.btn-default {
+    background-color: var(--colorHeaderFooter);
+    padding: 8px 16px;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    color: #fff;
+    transition: background-color 300ms;
+}
+
+.btn-default:hover {
+    background-color: rgb(196, 14, 196);
+    color: #fff;
+}
+
+/* end utility class */

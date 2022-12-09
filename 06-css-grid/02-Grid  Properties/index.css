@@ -1,0 +1,37 @@
+/*---------------------------------------------- 
+grid-template-columns & grid-template rows
+
+Mendefinisikan kolom maupun baris dengan menuliskan
+nilai (grid track) dan dipisahkan dengan 
+spasi (grid lane)
+
+cara penulisan
+[property css]: [track-size]px, %, auto, fr
+
+    - px = pixel
+    - % = berapa persen dari total lebar/tinggi (parent)
+    - auto = setinggi kontennya
+    - fr = fraction
+
+----------------------------------------------*/
+
+
+/* 
+
+Explicit & Implicit Grid
+
+Explicit: Kolom & Baris yang ditentukan oleh kita
+Implicit: Kolom & Baris yang secara otomatis ditentukan oleh gridnya
+
+Implicit grid juga dapat diatur, dengan property 
+    -> grid-auto-column
+    -> grid-auto-rows
+
+*/
+
+/* 
+
+grid-auto-flow: mengatur penempatan cell pada grid track, termasuk cell yang implicit
+grid-auto-flow: row | column | row dense | column dense
+
+*/
