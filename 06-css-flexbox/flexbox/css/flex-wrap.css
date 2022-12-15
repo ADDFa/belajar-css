@@ -1,0 +1,15 @@
+.container {
+    width: 400px;
+    border: 3px solid;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+}
+
+.container div {
+    margin: 3px;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}

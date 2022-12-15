@@ -1,0 +1,18 @@
+.container {
+    width: 700px;
+    height: 400px;
+    border: 3px solid;
+    display: flex;
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+}
+
+.container div {
+    margin: 3px;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
