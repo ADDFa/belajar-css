@@ -1,13 +1,13 @@
 .container {
     width: 700px;
-    height: 400px;
+    height: 500px;
     border: 3px solid;
     display: flex;
     /* align-items: stretch; */
     /* align-items: flex-start; */
     /* align-items: flex-end; */
     /* align-items: center; */
-    /* align-items: baseline; */
+    align-items: baseline;
 }
 
 .container div {
@@ -15,4 +15,12 @@
     width: 100px;
     height: 100px;
     background-color: orange;
+}
+
+.container div:nth-child(2) {
+    font-size: 40px;
+}
+
+.container div:last-child {
+    font-size: 100px;
 }

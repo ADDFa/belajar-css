@@ -11,6 +11,18 @@
     background-color: orange;
 }
 
-/* .container div:first-child {
+.container div:nth-child(2) {
+    flex-grow: 4;
+}
+
+.container div:nth-child(1) {
     flex-grow: 1;
-} */
+}
+
+.container div:nth-child(3) {
+    flex-grow: 1;
+}
+
+.container div:nth-child(4) {
+    flex-grow: 1;
+}
